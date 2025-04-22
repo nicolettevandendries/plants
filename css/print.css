@@ -1,0 +1,25 @@
+
+@media print {
+    body {
+        color: black;
+        background: transparent;
+    }
+   h1, h2, h3 {
+        color: black;
+    }
+    nav {
+        background-image: none;
+    }
+    /* Hides sidebar */
+    .sidebar {
+        display: none;
+    }
+
+a::after{
+    content: " (" attr(href) ")";
+}
+
+.primary-menu, .herbs {
+    background: transparent;
+}
+}

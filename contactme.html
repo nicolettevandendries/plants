@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  
+<head>
+  <meta name="viewport" content="width=device-width, inditial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="INFO 240 Assignment 8">
+  <title> Common Garden Remedies (Contact Me)</title>
+  
+     <!-- External Font and Stylesheets -->
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="print" href="css/print.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+    <script src="includes.js"></script>
+    <script>
+      window.onload = includeHTML;
+    </script>
+  </head>
+  
+<header>
+  <div w3-include-html="header.html"></div>
+</header>
+<div class="spanner"></div>
+ 
+<margin>
+   <body>
+    <div w3-include-html="nav.html"></div>
+     <div class="media">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/Gx3zp4-F9t4?si=IxexwVGp9txwr0tb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </div>
+     
+     <main>
+       <h4>CONTACT ME</h4>
+       <h2>Ask the oracle anything....</h2>
+       
+       <form action="reflector.php" method="POST">
+         <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname">
+         <label for="favtime">Favorite hour of day:</label>
+           <input type="time" id="favtime" name="favtime">
+         <label for="cars">Choose a car:</label>
+         <select id="cars" name="cars" size="1">
+           <option value="jeep">Jeep</option>
+           <option value="ford">Ford</option>
+           <option value="vw">VW</option>
+           <option value="subaru">Subaru</option>
+           <option value="honda">Honda</option>
+           <option value="kia">Kia</option>
+           <option value="ferrari">Ferrari</option>
+           <option value="volvo">Volvo</option>
+          </select>
+         <textarea name="question" style="width:40rem; height:60%;">The proof is in the pudding. So what's in the proof?</textarea>
+         <textarea name="answer">Type your answer here...</textarea>
+         <button type="submit">Submit</button>
+         <div class="spanner"></div> 
+       </form>
+     </main>
+</body>
+</margin>
+
+<footer>
+ <div w3-include-html="footer.html"></div>
+</footer>  

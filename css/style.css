@@ -1,0 +1,244 @@
+@media screen and (min-width: 750px) {
+  /* Main Layout: Grid for alignment */
+  .wrapper{
+    display: grid;
+    width: 110%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "main sidebar" "footer footer";
+  }
+  .sidebar{
+    grid-area: sidebar;
+    background-color: olive;
+    margin: 15%;
+    height: 100%;
+}
+.sidebar li {
+      font-family: 'Didot';
+      font-size: 1.1rem;
+      text-align: left;
+      padding: 1rem;
+    }
+}
+
+.spanner{
+height: 1rem;
+} 
+
+.macondo-regular {
+    font-family: "Macondo", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+/*NAVIGATION BAR*/
+.primary-menu {
+display: flex;
+justify-content: center;
+background-image: url(../images/orangeblossom.png);
+height: 8rem;
+}
+.primary-menu a {
+  text-decoration: none;
+  color: olive;
+  font-style: oblique;
+  font-weight: bold;
+}
+.primary-menu ul{
+display: flex;
+padding: 1rem;
+margin: 1rem;
+}
+.primary-menu li{
+display: inline;
+padding: 1rem;
+margin-left: 1rem;
+background-color: white;
+}
+
+
+/*This is the fun stuff okay cool*/
+ body {
+    background-color: #f5f5df;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+  }
+
+
+  h1 {
+    color: #005b2b; 
+    text-align: center; 
+    font-family: 'Macondo', serif;
+    font-size: 48px;
+    font-weight: bolder;
+  }
+
+  h2 {
+    color: #00175c;
+    font-family: 'Didot';
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: dotted;
+    margin-bottom: 30px
+  }
+
+  h3 {
+    color:	#005b2b ;
+    font-family: 'Didot';
+    font-size: 1.2rem;
+    text-align: center;
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+
+p  {
+    font-family: 'Didot', sans-serif;
+    color: #2b005b;
+    font-size: 15px; 
+  }
+
+#Basil, #Rosemary, #Sage {
+text-align: right;
+text-justify: right;
+color: #358a9c;
+font-size: 48px;
+font-weight: oblique;
+}
+
+.blocktext {
+padding-left: 40%;
+padding-right: 2%;
+text-align: left;
+}
+
+/*This section is about TABLES AND LISTS*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 3rem;
+  padding: 400px;
+  font-family: 'Didot', sans-serif;
+  background-color: #bddbff;
+  
+}
+
+td, th {
+  border: 1px double #999;
+  padding: 1rem;
+  text-align: left;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+caption {
+  color: #2b005b; 
+  font-size: 30px;
+  font-family: 'Macondo', serif;
+  display: table-caption;
+  text-align: -webkit-center;
+}
+
+
+.herbs ul{
+  text-decoration: none;
+  font-family: 'Didot', sans-serif;
+  color: coral;
+  background-color: #59688B;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.herbs a{
+text-decoration: none;
+color: coral;
+font-size: 20px;
+
+}
+
+.herbs li{
+  color: coral;
+  display: inline;
+  padding: 3rem;
+  margin: 1rem;
+}
+
+.herbslist li{
+  font-family: 'Didot', sans-serif;
+  font-size: 20px;
+  color: coral;
+  padding-top: 0.2rem;
+  padding-bottom: 2%;
+}
+
+main {
+background-color: #C7D2DD;
+}
+
+/*about FORMS and STUFF*/
+
+form {
+text-align: left;
+display: flex;
+flex-direction: column;
+align-items: list-items;
+padding: 4rem;
+font-size: 20px;
+color: purple;
+gap: 1.5rem;
+input, select, button {
+  width: 10rem; 
+  padding-left: 3px;
+}
+button {
+  align-items: center;
+  color: coolblue;
+  font-family: 'Didot';
+}
+}
+.answer {
+width: 500rem;
+}
+
+h4 {
+font-family: 'Georgia', serif;
+font-size: 30px;
+color: #f5f5df;
+background-color: #005b2b;
+text-align: center;
+border: dotted;
+padding: 2rem;
+}
+
+/*VIDEO STUFF*/
+.media {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.media iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+/*FOOTER ...... DUH*/
+footer  {   
+}
+
+.sandcloud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
